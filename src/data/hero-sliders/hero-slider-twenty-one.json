@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "AR Financials",
+    "subtitle": "We match best car financing for you.",
+    "image": "/assets/img/slider/slider-20.jpg",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 2,
+    "title": "AR Financials",
+    "subtitle": "We match best car financing for you.",
+    "image": "/assets/img/slider/slider-21.jpg",
+    "url": "/shop-grid-standard"
+  }
+]

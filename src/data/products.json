@@ -1,0 +1,179 @@
+[
+  { 
+    "id": "96", 
+    "sku": "asdf218",
+    "name": "Suzuki Wagon R",
+    "price":  1640000,
+    "discount": 0,
+    "new": true,
+    "rating": 5,
+    "saleCount": 50,
+    "category": ["auto parts"],
+    "tag": ["Suzuki"],
+    "stock": 15,
+    "image": [
+      "/assets/img/product/auto-parts/1.jpg",
+      "/assets/img/product/auto-parts/1.jpg",
+      "/assets/img/product/auto-parts/1.jpg",
+      "/assets/img/product/auto-parts/1.jpg",
+      "/assets/img/product/auto-parts/1.jpg"
+    ],
+    "shortDescription": "The 1st Generation Suzuki Wagon R was introduced in 2014. Suzuki Wagon R 2020 is a front engine front wheel drive hatchback.The 1st Generation Suzuki Wagon R is available in 2 variants Wagon R VXR and Wagon R VXL.",
+    "fullDescription": "The 1st Generation Suzuki Wagon R was introduced in 2014. Suzuki Wagon R 2020 is a front engine front wheel drive hatchback. Suzuki Wagon R 2020 features the brand new Suzuki K-Series engine that is more economical and quieter than most of the other engines fitted in Pak Suzuki’s range of cars. The 1st Generation Suzuki Wagon R is available in 2 variants Wagon R VXR and Wagon R VXL. Suzuki Wagon R 2020 price in Pakistan ranges between Rs. 1,640,000 To 1,890,000."
+  },
+  {
+    "id": "97",
+    "sku": "asdf219",
+    "name": "Suzuki Cultus",
+    "price": 1780000,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 10,
+    "category": ["auto parts"],
+    "tag": ["Suzuki"],
+    "stock": 10,
+    "image": [
+      "/assets/img/product/auto-parts/2.jpg",
+      "/assets/img/product/auto-parts/2.jpg",
+      "/assets/img/product/auto-parts/2.jpg",
+      "/assets/img/product/auto-parts/2.jpg",
+      "/assets/img/product/auto-parts/2.jpg"
+    ],
+    "shortDescription": "Suzuki Cultus is powered by a 3 cylinders DOHC 12 valves Engine with an engine displacepemt of 998 cc. The DOHC 12 valves can boast the engine upto 67 hp @ 6000 RPM horsepower with 90 Nm @ 3500 RPM torque.",
+    "fullDescription":"Suzuki Cultus is powered by a 3 cylinders DOHC 12 valves Engine with an engine displacepemt of 998 cc. The DOHC 12 valves can boast the engine upto 67 hp @ 6000 RPM horsepower with 90 Nm @ 3500 RPM torque.The price of Suzuki cultus is in between PKR 1,780,000 To 2,030,000."
+  },
+  {
+    "id": "98",
+    "sku": "asdf220",
+    "name": "Suzuki Alto",
+    "price": 1198000,
+    "discount": 0,
+    "new": false,
+    "rating": 3,
+    "saleCount": 30,
+    "category": ["auto parts"],
+    "tag": ["Suzuki"],
+    "stock": 13,
+    "image": [
+      "/assets/img/product/auto-parts/3.jpg",
+      "/assets/img/product/auto-parts/33.jpg",
+      "/assets/img/product/auto-parts/333.jpg",
+      "/assets/img/product/auto-parts/3333.jpg",
+      "/assets/img/product/auto-parts/33333.jpg",
+      "/assets/img/product/auto-parts/333333.jpg"
+    ],
+    "shortDescription": "Suzuki has launched new Suzuki Alto 2020 in Pakistan The car comes equipped with a 660cc engine and with both the auto and manual transmission.",
+    "fullDescription": "Suzuki has launched new Suzuki Alto 2020 in Pakistan The car comes equipped with a 660cc engine and with both the auto and manual transmission. It has a length of 3,395 mm, 1,475 mm width and 1,490 mm height. Moreover, it has a wheelbase of 2,460 mm. Suzuki Alto Price in Pakistan is PKR 1,198,000 To 1,633,000."
+  },
+  {
+    "id": "99",
+    "sku": "asdf221",
+    "name": "Suzuki Swift",
+    "price": 1905000,
+    "discount": 0,
+    "new": false,
+    "rating": 2,
+    "saleCount": 10,
+    "category": ["auto parts"],
+    "tag": ["Suzuki"],
+    "stock": 5,
+    "image": [
+      "/assets/img/product/auto-parts/4.jpg",
+      "/assets/img/product/auto-parts/4.jpg",
+      "/assets/img/product/auto-parts/4.jpg",
+      "/assets/img/product/auto-parts/4.jpg",
+      "/assets/img/product/auto-parts/4.jpg"
+    ],
+    "shortDescription": "Suzuki's compact supermini received a facelift for 2014, getting new visual cues as well as more equipment and options.",
+    "fullDescription": "Suzuki's compact supermini received a facelift for 2014, getting new visual cues as well as more equipment and options. It has a length of 151.6 in (3851 mm), width 66.7 in (1694 mm) and 59.4 in (1509 mm) height. Price in Pakistan is PKR 1,905,000 To PKR 2,050,000."
+  },
+  {
+    "id": "100",
+    "sku": "asdf222",
+    "name": "Kia Sportage",
+    "price": 4399000,
+    "discount": 0,
+    "new": false,
+    "rating": 4,
+    "saleCount": 10,
+    "category": ["auto parts"],
+    "tag": ["Kia"],
+    "stock": 20,
+    "image": [
+      "/assets/img/product/auto-parts/5.jpg",
+      "/assets/img/product/auto-parts/5.jpg",
+      "/assets/img/product/auto-parts/5.jpg",
+      "/assets/img/product/auto-parts/5.jpg",
+      "/assets/img/product/auto-parts/5.jpg"
+    ],
+    "shortDescription": "KIA Sportage is a compact SUV which provides comfort, versatility & innovation to its users. KIA Sportage was launched in August 2019 in Pakistan. KIA Sportage was launched with both AWD and FWD options.",
+    "fullDescription": "KIA Sportage is a compact SUV which provides comfort, versatility & innovation to its users. KIA Sportage was launched in August 2019 in Pakistan. KIA Sportage comes with 6 speed transmission + SportMatic. It has a 2.0L Gasoline MPI engine which produces 154hp at 6200 RPM and 196nm torque at 4000 RPM. KIA has started booking of Sportage and the price ranges between Rs. 4,399,000 To 5,399,000." 
+  },
+  {
+    "id": "101",
+    "sku": "asdf223",
+    "name": "Honda Civic",
+    "price": 3729000,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 100,
+    "category": ["auto parts"],
+    "tag": ["Honda"],
+    "stock": 25,
+    "image": [
+      "/assets/img/product/auto-parts/6.jpg",
+      "/assets/img/product/auto-parts/6.jpg",
+      "/assets/img/product/auto-parts/6.jpg",
+      "/assets/img/product/auto-parts/6.jpg",
+      "/assets/img/product/auto-parts/6.jpg"
+    ],
+    "shortDescription": "Honda Civic 2020 is a front engine, front wheel drive, subcompact sedan also known as Civic X. The Honda Civic 2020 is available in 2 variants in Pakistan 1.8 Litre and 1.8-Liter VTI Oriel while globally it is sold in 4 variants LX, EX, EX-T and EX-L.",
+    "fullDescription": "Honda Civic 2020 is a front engine, front wheel drive, subcompact sedan also known as Civic X. The Honda Civic 2020 is available in 2 variants in Pakistan 1.8 Litre and 1.8-Liter VTI Oriel while globally it is sold in 4 variants LX, EX, EX-T and EX-L.The Honda Civic 2020 price in Pakistan is between PKR 3,729,000 To 4,699,000."
+  },
+  {
+    "id": "102",
+    "sku": "asdf224",
+    "name": "Toyota Grande",
+    "price": 3485000,
+    "discount": 0,
+    "new": false,
+    "rating": 5,
+    "saleCount": 30,
+    "category": ["auto parts"],
+    "tag": ["Toyota"],
+    "stock": 10,
+    "image": [
+      "/assets/img/product/auto-parts/7.jpg",
+      "/assets/img/product/auto-parts/7.jpg",
+      "/assets/img/product/auto-parts/7.jpg",
+      "/assets/img/product/auto-parts/7.jpg",
+      "/assets/img/product/auto-parts/7.jpg"
+    ],
+    "shortDescription": "With a dynamic, prestige-boasting exterior, an iconic interior, advanced features and technology, the new Corolla Altis Grande delivers a superior driving experience along with Toyota's enduring promise of trusted quality and reliability.",
+    "fullDescription": "With a dynamic, prestige-boasting exterior, an iconic interior, advanced features and technology, the new Corolla Altis Grande delivers a superior driving experience along with Toyota's enduring promise of trusted quality and reliability. It has a Overall Length of 4620, Overall Width of 1775 & Overall Height of 1475. Price in Pakistan is PKR 3,485,000 To PKR 3,905,000."
+  },
+  {
+    "id": "103",
+    "sku": "asdf225",
+    "name": "Honda City",
+    "price": 2309000,
+    "discount": 0,
+    "new": true,
+    "rating": 3,
+    "saleCount": 100,
+    "category": ["auto parts"],
+    "tag": ["Honda"],
+    "stock": 10,
+    "image": [
+      "/assets/img/product/auto-parts/8.jpg",
+      "/assets/img/product/auto-parts/8.jpg",
+      "/assets/img/product/auto-parts/8.jpg",
+      "/assets/img/product/auto-parts/8.jpg",
+      "/assets/img/product/auto-parts/8.jpg"
+    ],
+    "shortDescription": "The contours of the Honda City are strikingly unmistakable. That dash of panache. That magnetic presence. The roads will be overwhelmed.",
+    "fullDescription": "The contours of the Honda City are strikingly unmistakable. That dash of panache. That magnetic presence. The roads will be overwhelmed. Inside the City is a comfortable, ergonomically designed, ornately engineered space that takes your ride to a heightened level of classy.It has a length of 4440 mm, width1695 mm and 1495 mm height. Honda City 2020 model is the City i-VTEC at PKR 2,309,000 and the most expensive model is the City Aspire Prosmatec 1.5 I-VTEC at PKR 2,629,000."
+  }
+]

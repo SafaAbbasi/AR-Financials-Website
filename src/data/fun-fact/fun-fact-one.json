@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "iconClass": "pe-7s-portfolio",
+    "countNum": 360,
+    "title": "project done"
+  },
+  {
+    "id": "2",
+    "iconClass": "pe-7s-car",
+    "countNum": 690,
+    "title": "cars sold "
+  },
+  {
+    "id": "3",
+    "iconClass": "pe-7s-light",
+    "countNum": 15,
+    "title": "car brands"
+  },
+  {
+    "id": "4",
+    "iconClass": "pe-7s-smile",
+    "countNum": 250,
+    "title": "happy clients"
+  }
+]
