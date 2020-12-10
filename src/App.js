@@ -8,10 +8,12 @@ import { BreadcrumbsProvider } from "react-breadcrumbs-dynamic";
 
 // home pages
 
-const HomeAutoParts = lazy(() => import("./pages/home/HomeAutoParts"));
+const Home = lazy(() => import("./pages/home/Home"));
+const ComingSoon = lazy(() => import("./pages/home/ComingSoon"));
+
 
 // shop pages
-const ShopGridStandard = lazy(() => import("./pages/shop/ShopGridStandard"));
+const Shop = lazy(() => import("./pages/shop/Shop"));
 const ShopGridFilter = lazy(() => import("./pages/shop/ShopGridFilter"));
 const ShopGridTwoColumn = lazy(() => import("./pages/shop/ShopGridTwoColumn"));
 const ShopGridNoSidebar = lazy(() => import("./pages/shop/ShopGridNoSidebar"));
@@ -38,19 +40,21 @@ const ProductFixedImage = lazy(() =>
 );
 
 // blog pages
-const BlogNoSidebar = lazy(() => import("./pages/blog/BlogNoSidebar"));
+const Blog = lazy(() => import("./pages/blog/Blog"));
 
 // other pages
 const About = lazy(() => import("./pages/other/About"));
+const AboutSoon = lazy(() => import("./pages/other/AboutSoon"));
 const AboutFAQ = lazy(() => import("./pages/other/AboutFAQ"));
+const AboutFAQSoon = lazy(() => import("./pages/other/AboutFAQSoon"));
 const MyAccount = lazy(() => import("./pages/other/MyAccount"));
 const Contact = lazy(() => import("./pages/other/Contact"));
+const ContactSoon = lazy(() => import("./pages/other/ContactSoon"));
 const LoginRegister = lazy(() => import("./pages/other/LoginRegister"));
 const NotFound = lazy(() => import("./pages/other/NotFound"));
 
 const App = (props) => {
   useEffect(() => {
-    
   });
 
   return (
@@ -72,19 +76,21 @@ const App = (props) => {
                 <Route
                   exact
                   path={process.env.PUBLIC_URL + "/"}
-                  component={HomeAutoParts}
+                  component={ComingSoon}
                 />
-
                 {/* Homepages */}             
                 <Route
-                  path={process.env.PUBLIC_URL + "/home-auto-parts"}
-                  component={HomeAutoParts}
+                  path={process.env.PUBLIC_URL + "/home"}
+                  component={Home}
                 />
-               
+                <Route
+                  path={process.env.PUBLIC_URL + "/coming-soon"}
+                  component={ComingSoon}
+                />
                 {/* Shop pages */}
                 <Route
-                  path={process.env.PUBLIC_URL + "/shop-grid-standard"}
-                  component={ShopGridStandard}
+                  path={process.env.PUBLIC_URL + "/shop"}
+                  component={Shop}
                 />
                 <Route
                   path={process.env.PUBLIC_URL + "/shop-grid-filter"}
@@ -150,8 +156,8 @@ const App = (props) => {
                 {/* Blog pages */}
                
                 <Route
-                  path={process.env.PUBLIC_URL + "/blog-no-sidebar"}
-                  component={BlogNoSidebar}
+                  path={process.env.PUBLIC_URL + "/blog"}
+                  component={Blog}
                 />
 
                 {/* Other pages */}
@@ -160,12 +166,24 @@ const App = (props) => {
                   component={About}
                 />
                  <Route
+                  path={process.env.PUBLIC_URL + "/about-soon"}
+                  component={AboutSoon}
+                />
+                 <Route
                   path={process.env.PUBLIC_URL + "/about-faq"}
                   component={AboutFAQ}
                 />
                 <Route
+                  path={process.env.PUBLIC_URL + "/about-faq-soon"}
+                  component={AboutFAQSoon}
+                />
+                <Route
                   path={process.env.PUBLIC_URL + "/contact"}
                   component={Contact}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/contact-soon"}
+                  component={ContactSoon}
                 />
                 <Route
                   path={process.env.PUBLIC_URL + "/my-account"}

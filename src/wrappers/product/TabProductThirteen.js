@@ -31,7 +31,7 @@ const TabProductThirteen = ({
           >
             <Nav.Item>
               <Nav.Link eventKey="bestSeller">
-                <h4>Best Sellers</h4>
+                <h4>Popular Cars</h4>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -51,7 +51,7 @@ const TabProductThirteen = ({
                 <ProductGrid
                   category={category}
                   type="new"
-                  limit={8}
+                  limit={4}
                   spaceBottomClass="mb-25"
                 />
               </div>
@@ -71,7 +71,7 @@ const TabProductThirteen = ({
                 <ProductGrid
                   category={category}
                   type="used"
-                  limit={8}
+                  limit={4}
                   spaceBottomClass="mb-25"
                 />
               </div>
@@ -81,7 +81,7 @@ const TabProductThirteen = ({
         <div className="view-more round-btn text-center mt-20 toggle-btn6 col-12">
           <Link
             className="loadMore6"
-            to={process.env.PUBLIC_URL + "/shop-grid-standard"}
+            to={process.env.PUBLIC_URL + "/shop"}
           >
             Discover More
           </Link>

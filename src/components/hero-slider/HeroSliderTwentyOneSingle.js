@@ -24,7 +24,7 @@ const HeroSliderTwentyOneSingle = ({ data, sliderClass }) => {
                   className="animated rounden-btn"
                   to={process.env.PUBLIC_URL + data.url}
                 >
-                  VISIT NOW
+                  EXPLORE
                 </Link>
               </div>
             </div>

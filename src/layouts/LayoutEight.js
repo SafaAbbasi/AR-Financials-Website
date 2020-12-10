@@ -1,30 +1,28 @@
 import PropTypes from "prop-types";
 import React, { Fragment } from "react";
-import HeaderOne from "../wrappers/header/HeaderOne";
-import FooterOne from "../wrappers/footer/FooterOne";
+import HeaderFive from "../wrappers/header/HeaderFive";
+import FooterTwo from "../wrappers/footer/FooterTwo";
 
 const LayoutEight = ({
   children,
   headerContainerClass,
   headerTop,
-  headerBorderStyle,
-  headerPaddingClass
+  headerPaddingClass,
+  headerPositionClass
 }) => {
   return (
-    <Fragment>
-      <HeaderOne
+     <Fragment>
+      <HeaderFive
         layout={headerContainerClass}
         top={headerTop}
-        borderStyle={headerBorderStyle}
         headerPaddingClass={headerPaddingClass}
+        headerPositionClass={headerPositionClass}
       />
       {children}
-      <FooterOne
+      <FooterTwo
         backgroundColorClass="bg-gray"
         spaceTopClass="pt-100"
-        spaceBottomClass="mb-70 pb-70"
-        spaceLeftClass="ml-70"
-        spaceRightClass="mr-70"
+        spaceBottomClass="pb-70"
       />
     </Fragment>
   );
@@ -32,9 +30,9 @@ const LayoutEight = ({
 
 LayoutEight.propTypes = {
   children: PropTypes.any,
-  headerBorderStyle: PropTypes.string,
   headerContainerClass: PropTypes.string,
   headerPaddingClass: PropTypes.string,
+  headerPositionClass: PropTypes.string,
   headerTop: PropTypes.string
 };
 

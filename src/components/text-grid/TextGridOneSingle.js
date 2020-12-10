@@ -8,7 +8,7 @@ const TextGridOneSingle = ({ data, spaceBottomClass }) => {
         className={`single-mission ${spaceBottomClass ? spaceBottomClass : ""}`}
       >
         <h3>{data.title}</h3>
-        <p>{data.text}</p>
+        <p  align="justify" >{data.text}</p>
       </div>
     </div>
   );

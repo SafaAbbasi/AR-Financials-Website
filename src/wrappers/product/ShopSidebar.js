@@ -23,7 +23,7 @@ const ShopSidebar = ({ products, getSortParams, sideSpaceClass }) => {
       <ShopCategories
         categories={uniqueCategories}
         getSortParams={getSortParams}
-      />*/}
+      /> */}
 
       {/* filter by tag */}
       <ShopTag tags={uniqueTags} getSortParams={getSortParams} />

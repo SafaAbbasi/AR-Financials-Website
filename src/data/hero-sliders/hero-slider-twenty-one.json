@@ -1,16 +1,23 @@
 [
   {
     "id": 1,
-    "title": "AR Financials",
-    "subtitle": "We match best car financing for you.",
+    "title": "Welcome to AR Financials?",
+    "subtitle": "Getting Loan has never been Easier!",
     "image": "/assets/img/slider/slider-20.jpg",
-    "url": "/shop-grid-standard"
+    "url": "/shop"
   },
   {
     "id": 2,
-    "title": "AR Financials",
-    "subtitle": "We match best car financing for you.",
+    "title": "Compare different Banks",
+    "subtitle": "Put your Life into Fifth Gear",
     "image": "/assets/img/slider/slider-21.jpg",
-    "url": "/shop-grid-standard"
+    "url": "/shop"
+  },
+  {
+    "id": 3,
+    "title": "It's like taking help from a friend",
+    "subtitle": "Talk to Our Financing Experts",
+    "image": "/assets/img/slider/slider-22.jpg",
+    "url": "/shop"
   }
 ]

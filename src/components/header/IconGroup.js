@@ -1,16 +1,9 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import MenuCart from "./sub-components/MenuCart";
 import { deleteFromCart } from "../../redux/actions/cartActions";
 
 const IconGroup = ({
-  currency,
-  cartData,
-  wishlistData,
-  compareData,
-  deleteFromCart,
   iconWhiteClass
 }) => {
   const handleClick = e => {
@@ -41,7 +34,16 @@ const IconGroup = ({
           </form>
         </div>
       </div>
+      <div className="same-style mobile-off-canvas d-block d-lg-none">
+        <button
+          className="mobile-aside-button"
+          onClick={() => triggerMobileMenu()}
+        >
+          <i className="pe-7s-menu" />
+        </button>
+      </div>
     </div>
+    
   );
 };
 

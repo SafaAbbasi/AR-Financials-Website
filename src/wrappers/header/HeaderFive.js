@@ -1,51 +1,67 @@
-import React from "react";
-import Logo from "../../components/header/Logo";
-import IconGroup from "../../components/header/IconGroup";
-import MobileMenu from "../../components/header/MobileMenu";
-import NavMenu from "../../components/header/NavMenu";
+import PropTypes from "prop-types";
+import React, { useEffect, useState } from "react";
 
-const HeaderFive = () => {
+const HeaderFive = ({
+  layout,
+  top,
+  borderStyle,
+  headerPaddingClass,
+  headerPositionClass,
+  headerBgClass
+}) => {
+  const [scroll, setScroll] = useState(0);
+  const [headerTop, setHeaderTop] = useState(0);
+
+  useEffect(() => {
+    const header = document.querySelector(".sticky-bar");
+    setHeaderTop(header.offsetTop);
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const handleScroll = () => {
+    setScroll(window.scrollY);
+  };
+
   return (
-    <div>
-      <div className="home-sidebar-left">
-        {/* header logo */}
-        <Logo imageUrl="/assets/img/logo/logo.png" logoClass="logo" />
-        {/* Icon group */}
-        <IconGroup />
-        {/* sidebar nav menu */}
-        <NavMenu sidebarMenu={true} />
-        <div className="sidebar-copyright">
-          <p>
-            ©2020{" "}
-            <a
-              href="//www.hasthemes.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Flone
-            </a>
-            .All Rights Reserved.
-          </p>
+    <header
+      className={`header-area clearfix ${headerBgClass ? headerBgClass : ""} ${
+        headerPositionClass ? headerPositionClass : ""
+      }`}
+    >
+      <div
+        className={`${headerPaddingClass ? headerPaddingClass : ""} ${
+          top === "visible" ? "d-none d-lg-block" : "d-none"
+        } header-top-area ${
+          borderStyle === "fluid-border" ? "border-none" : ""
+        }`}
+      >
+       
+      </div>
+
+      <div
+        className={` ${
+          headerPaddingClass ? headerPaddingClass : ""
+        } sticky-bar header-res-padding clearfix ${
+          scroll > headerTop ? "stick" : ""
+        }`}
+      >
+        <div className={layout === "container-fluid" ? layout : "container"}>
+          
         </div>
       </div>
-      <header className="header-area header-padding-1 sticky-bar header-res-padding clearfix header-hm4-none">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-xl-2 col-lg-2 col-md-6 col-4">
-              {/* header logo */}
-              <Logo imageUrl="/assets/img/logo/logo.png" logoClass="logo" />
-            </div>
-            <div className="col-xl-10 col-lg-102 col-md-6 col-8">
-              {/* Icon group */}
-              <IconGroup />
-            </div>
-          </div>
-          {/* mobile menu */}
-          <MobileMenu />
-        </div>
-      </header>
-    </div>
+    </header>
   );
+};
+
+HeaderFive.propTypes = {
+  borderStyle: PropTypes.string,
+  headerPaddingClass: PropTypes.string,
+  headerPositionClass: PropTypes.string,
+  layout: PropTypes.string,
+  top: PropTypes.string
 };
 
 export default HeaderFive;

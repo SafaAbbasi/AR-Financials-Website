@@ -38,7 +38,7 @@ const BrandLogoSliderFive = ({ spaceBottomClass, spaceTopClass }) => {
       <div className="container">
         <SectionTitle
           titleText="Banks With Us"
-          subtitleText="Choose Your Favorite Bank"
+          subtitleText="Compare and Choose Bank"
           subtitleColorClass="grey"
           positionClass="text-center"
           spaceClass="mb-55"

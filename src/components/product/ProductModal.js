@@ -145,7 +145,7 @@ function ProductModal(props) {
                       </span>
                     </Fragment>
                   ) : (
-                    <span>{currency.currencySymbol + finalproductprice} </span>
+                    <span>{currency.currencySymbol + finalproductprice} First Installment </span>
                   )}
                 </div>
                 {product.rating && product.rating > 0 ? (
@@ -252,25 +252,7 @@ function ProductModal(props) {
                 ) : (
                   <div className="pro-details-quality">
                     <div className="pro-details-cart btn-hover">
-                      {productStock && productStock > 0 ? (
-                        <button
-                          onClick={() =>
-                            addToCart(
-                              product,
-                              addToast,
-                              quantityCount,
-                              selectedProductColor,
-                              selectedProductSize
-                            )
-                          }
-                          disabled={productCartQty >= productStock}
-                        >
-                          {" "}
-                          View Plan{" "}
-                        </button>
-                      ) : (
-                        <button disabled>Out of Stock</button>
-                      )}
+                      <button>View Plan</button>
                     </div>
                   </div>
                 )}

@@ -6,6 +6,7 @@ import IconGroup from "../../components/header/IconGroup";
 import MobileMenu from "../../components/header/MobileMenu";
 import HeaderTop from "../../components/header/HeaderTop";
 
+
 const HeaderOne = ({
   layout,
   top,
@@ -48,7 +49,6 @@ const HeaderOne = ({
           <HeaderTop borderStyle={borderStyle} />
         </div>
       </div>
-
       <div
         className={` ${
           headerPaddingClass ? headerPaddingClass : ""

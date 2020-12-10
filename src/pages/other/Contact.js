@@ -47,7 +47,7 @@ const Contact = ({ location }) => {
                         <a href="autoloan@arfinancials.com">autoloan@arfinancials.com</a>
                       </p>
                       <p>
-                        <a href="//urwebsitenaem.com">urwebsitenaem.com</a>
+                        <a href="//urwebsitenaem.com">arfinancials.com</a>
                       </p>
                     </div>
                   </div>

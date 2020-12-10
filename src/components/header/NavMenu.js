@@ -12,14 +12,14 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
           : `main-menu ${menuWhiteClass ? menuWhiteClass : ""}`
       } `}
     >
-     <nav className="navbar">
+     <nav >
             <div className="container">
               <div id="navbar">
                 <ul className="nav navbar-nav">
-                  <li className="active"><a href="/home-auto-parts">Home</a></li>
-                  <li><a href="/shop-grid-standard">Collections</a></li>
+                  <li className="active"><a href="/home">Home</a></li>
+                  <li><a href="/shop">Shop Car</a></li>
                   <li>
-                  <a href="#">Pages
+                  <a href="#">Resources
                       {sidebarMenu ? (
                         <span>
                           <i className="fa fa-angle-right"></i>
@@ -40,7 +40,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                       </li>
                       </ul>
                       </li>   
-                      <li><a href="/blog-no-sidebar">Blog</a></li> 
+                      <li><a href="/blog">Blog</a></li> 
                       <li><a href="/contact">Contact Us</a></li> 
                         </ul>
                       </div>

@@ -6,6 +6,7 @@ import { addToWishlist } from "../../redux/actions/wishlistActions";
 import { addToCompare } from "../../redux/actions/compareActions";
 import ProductGridListSingle from "../../components/product/ProductGridListSingle";
 
+
 const ProductGrid = ({
   products,
   currency,

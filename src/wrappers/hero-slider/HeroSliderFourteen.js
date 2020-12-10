@@ -3,6 +3,7 @@ import Swiper from "react-id-swiper";
 import heroSliderData from "../../data/hero-sliders/hero-slider-fourteen.json";
 import HeroSliderFourteenSingle from "../../components/hero-slider/HeroSliderFourteenSingle.js";
 
+
 const HeroSliderFourteen = () => {
   const params = {
     effect: "fade",

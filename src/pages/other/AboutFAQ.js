@@ -14,7 +14,7 @@ const AboutFAQ = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>AR Financials | About us</title>
+        <title>AR Financials | FAQ </title>
         <meta
           name="description"
           content="About page of flone react minimalist eCommerce template."
@@ -22,7 +22,7 @@ const AboutFAQ = ({ location }) => {
       </MetaTags>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        About us
+        FAQ
       </BreadcrumbsItem>
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}

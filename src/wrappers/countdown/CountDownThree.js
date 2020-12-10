@@ -25,7 +25,7 @@ const CountDownThree = ({
                 <Countdown date={new Date(dateTime)} renderer={Renderer} />
               </div>
               <div className="funfact-btn funfact-btn--round-shape funfact-btn-red btn-hover">
-                <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+                <Link to={process.env.PUBLIC_URL + "/shop"}>
                 VISIT NOW
                 </Link>
               </div>

@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
+
 
 const HeroSliderTwentyTwoSingle = ({ data, sliderClass }) => {
   return (
@@ -19,14 +20,14 @@ const HeroSliderTwentyTwoSingle = ({ data, sliderClass }) => {
                 className="animated"
                 dangerouslySetInnerHTML={{ __html: data.subtitle }}
               />
-              <p className="animated">{data.text}</p>
               <div className="slider-btn btn-hover">
-                <Link
+                       {/*  
+               <Link
                   className="animated rounden-btn"
                   to={process.env.PUBLIC_URL + data.url}
                 >
-                  SHOP NOW
-                </Link>
+                  VISIT NOW
+                </Link> */}
               </div>
             </div>
           </div>

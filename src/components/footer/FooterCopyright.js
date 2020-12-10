@@ -16,7 +16,7 @@ const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
       </div>
       <p>
         © 2020{" "}
-        <a href="//hasthemes.com" rel="noopener noreferrer" target="_blank">
+        <a href="/home" rel="noopener noreferrer" target="_blank">
         AR Financials
         </a>
         .<br /> All Rights Reserved

@@ -4,6 +4,9 @@
   position: relative;
   &.header-absolute {
     position: absolute;
+    color: transparent;
+    background-color:transparent;
+    background:transparent;
     z-index: 99;
 
     width: 100%;
